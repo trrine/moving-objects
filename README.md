@@ -3,6 +3,8 @@ Python program that extracts and counts moving objects, e.g. people, cars and ot
 
 ## Description
 
+This program was developed for a computer vision subject at university.
+
 ## Getting Started
 
 ### Dependencies
