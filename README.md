@@ -1,5 +1,5 @@
 # Video Object Detection
-Python program that extracts and counts moving objects, e.g. people, cars and others using background modelling and detects pedestrians using cascades full body detector.
+This program extracts and counts moving objects, e.g. people, cars and others, from a given sequence of frames (video) using Gaussian Mixture background modelling and detects pedestrians using Haar Cascades full body detector. The program assumes that the video frames are captured by a stationary camera.   
 
 ## Description
 
