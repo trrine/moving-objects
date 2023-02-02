@@ -25,7 +25,7 @@ The pedestrian detection and tracking functionality uses the Haar Cascade full b
 - Python 3
 - OpenCV 4.5.5
 
-## Executing the Program
+### Executing the Program
 
 The program runs from the command line where the user inputs a video to the analysed. To run the program with the first functionality (moving object detection/background modelling), type the following command with the videofile you wish to use:
 - movingObj.py –b videofile
