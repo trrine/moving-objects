@@ -32,7 +32,7 @@ The program runs from the command line where the user inputs a video to the anal
 - E.g. movingObj.py -b trafficlights.avi
 
 To run the second functionality (pedestrian detection and tracking), type the following command with the videofile you wish to use:
-- movingObj –p videofile
+- movingObj -p videofile
 - E.g. movingObj.py -p trafficlights.avi
 
 The program runs until it has looped through each frame or until the user pressed "Escape" or "q".
