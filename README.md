@@ -28,7 +28,7 @@ The pedestrian detection and tracking functionality uses the Haar Cascade full b
 ### Executing the Program
 
 The program runs from the command line where the user inputs a video to the analysed. To run the program with the first functionality (moving object detection/background modelling), type the following command with the videofile you wish to use:
-- movingObj.py –b videofile
+- movingObj.py -b videofile
 - E.g. movingObj.py -b trafficlights.avi
 
 To run the second functionality (pedestrian detection and tracking), type the following command with the videofile you wish to use:
