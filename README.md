@@ -1,5 +1,5 @@
 # Video Object Detection
-This program extracts and counts moving objects (people, cars and others) from a given sequence of frames (video) using Gaussian Mixture background modelling and detects pedestrians using Haar Cascades full body detector. The program assumes that the video frames are captured by a stationary camera.   
+This program extracts and counts moving objects (people, cars, and "others") from a given sequence of frames (video) using Gaussian Mixture background modelling and detects pedestrians using Haar Cascades full body detector. The program assumes that the video frames are captured by a stationary camera.   
 
 ## Description
 
