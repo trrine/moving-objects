@@ -1,11 +1,11 @@
 # Video Object Detection
-This program extracts and counts moving objects (people, cars, and "others") from a given sequence of (video) frames using Gaussian Mixture background modelling and detects pedestrians using Haar Cascades full body detector. The program assumes that the video frames are captured by a stationary camera.   
+This program extracts and counts moving objects (people, cars, and "others") from a given sequence of (video) frames using Gaussian Mixture background modelling and detects pedestrians using the Haar Cascades full body detector. The program assumes that the video frames are captured by a stationary camera.   
 
 ## Description
 
-This Python program was developed for a computer vision subject at university with the purpose of exploring pedestrian/moving object detection due to its importance in intelligent video surveillance systems and autonomous driving. The program runs in the command line and where the user can choose whether they want the program to perform moving object detection and extraction (background modelling) or pedestrian detection and tracking. 
+This Python program was developed for a computer vision subject at university with the purpose of exploring pedestrian/moving object detection due to its importance in intelligent video surveillance systems and autonomous driving. The program runs in the command prompt where the user can choose whether they want the program to perform moving object detection and extraction (background modelling) or pedestrian detection and tracking. 
 
-The moving object detection functionality uses Gaussian Mixture background modelling and substracts the estimated background in order to detect and extract moving pixels. Noise is removed before performing connected component analysis where blobs (or collections of foreground pixels) are extracted. These blobs are the moving objects. Simple classification of the moving objects into "person", "car", or "other" is then performed based on their aspect ratio (width/height). The reason for this simplistic classification method is that the focus of the task was on detection and extraction of moving objects and not on the classification itself. While running the background modelling functions on each frame of the specified video, the following is displayed in a single window:
+The moving object detection functionality uses Gaussian Mixture background modelling and substracts the estimated background in order to detect and extract moving pixels. Noise is removed before applying connected component analysis where blobs (or collections of foreground pixels) are extracted. These blobs are the moving objects. Simple classification of the moving objects into "person", "car", or "other" is then performed based on their aspect ratio (width/height). The reason for this simplistic classification method is that the focus of the task was on detection and extraction of moving objects and not on the classification itself. While running the background modelling functions on each frame of the specified video, the following is displayed in a single window:
 - Original frame
 - Estimated background frame
 - Detected moving pixels before filtering
@@ -27,7 +27,7 @@ The pedestrian detection and tracking functionality uses the Haar Cascade full b
 
 ### Executing the Program
 
-The program runs from the command line where the user inputs a video to the analysed. To run the program with the first functionality (moving object detection/background modelling), type the following command with the videofile you wish to use:
+The program runs from the command prompt where the user inputs a video to be analysed. To run the program with the first functionality (moving object detection/background modelling), type the following command with the videofile you wish to use:
 - movingObj.py -b videofile
 - E.g. movingObj.py -b trafficlights.avi
 
